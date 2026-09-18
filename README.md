@@ -18,6 +18,6 @@ Performance benchmark and verification framework for 16-bit to 32-bit widening v
 ## Build & Run
 
 ```bash
-gcc -O2 -mfpu=neon mul_vector_tb_2.c mul_vector_2.c mul_vector_fast_2.c mul_vector_ref_2.c -o neon_mul32_test
+gcc -O2 -mfpu=neon mul_vector_tb.c mul_vector.c mul_vector_fast.c mul_vector_ref.c -o neon_mul32_test
 ./neon_mul32_test
 ```
